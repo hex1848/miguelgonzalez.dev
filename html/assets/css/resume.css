@@ -1,0 +1,66 @@
+
+/* PAGE */
+html {
+    font-size: 11px;
+}
+
+.header {
+    text-align: center;
+}
+
+.page.container {
+    max-width: 1024px;
+}
+
+/* PRINT OVERIDES */
+@page  
+{ 
+    size: 0mm; 
+    margin: 0mm;
+} 
+
+/* LEFT CONTENT */
+.name h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.name h4 {
+    color: #636464;
+}
+.experience header {
+    margin-top: 1rem;
+}
+.experience ol {
+    padding-left: 0%;
+}
+.experience ol li {
+    list-style-type: none;
+}
+.experience ol li ul li {
+    list-style-type: disc;
+}
+
+/* RIGHT SIDEBAR */
+.sidebar {
+    text-align: left;
+}
+.sidebar section:not(:first-child) {
+    margin: 2rem 0 0 0;
+}
+.sidebar ul {
+    padding-left: 0%;
+}
+.sidebar ul li {
+    list-style-type: none;
+    margin: .5rem 0 .5rem 0;
+}
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+}
+.sidebar i {
+    color: #636464;
+}
+.sidebar .fa-stack {
+    font-size: .8rem;
+}
